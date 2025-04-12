@@ -1,0 +1,10 @@
+1. Create a table element using table 
+2. Create a td element --> table data
+3. Add Headings using th element
+
+
+<table>
+<tr>
+<td>
+
+expense, description, category, amount, date

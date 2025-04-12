@@ -1,0 +1,137 @@
+.header{
+  font-weight: bolder;
+  font-size: 32px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.search-input{
+  border-radius: 6px;
+  margin-left:315px;
+  margin-top: 70px;
+  width: 280px;
+  height: 30px;
+  border: 1px solid rgb(138, 148, 148);
+}
+
+.right-table{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  font-size:20px;
+  border-radius: 4px;
+  margin-left: 20px;
+  margin-top: 30px;
+  height: 250px;
+  width:90% ;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th{
+  text-align: left;
+  color: antiquewhite;
+  background-color: black;
+  padding: 0;
+}
+
+table, th, td{
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-collapse:collapse;
+}
+
+tr:nth-child(even){
+  background-color:aliceblue ;
+}
+
+tr:nth-child(odd){
+  background-color: rgb(225, 252, 243);
+}
+
+.details-input{
+  margin-right: 0px;
+  margin-left: 12px;
+margin-top: 70px;
+overflow: hidden;
+max-width: 280px;
+}
+
+.container{
+display: flex;
+align-items: flex-start;
+background-color: rgb(255, 255, 255);
+}
+
+.expense-input{
+  width: 270px;
+  margin-right: 2px;
+  height: 30px;
+  border-radius: 6px;
+  border: 1px solid rgb(166, 166, 204);
+}
+
+.description-input{
+  width: 270px;
+  height: 30px;
+  border-radius: 6px;
+  border: 1px solid rgb(166, 166, 204);
+  margin-top: 10px;
+}
+
+.category-input{
+  width: 270px;
+  height: 30px;
+  border-radius: 6px;
+  border: 1px solid rgb(166, 166, 204);
+  margin-top: 10px;
+}
+
+.amount-input{
+  width: 270px;
+  height: 30px;
+  border-radius: 6px;
+  border: 1px solid rgb(166, 166, 204);
+  margin-top: 10px;
+}
+
+.date-input{
+  width: 270px;
+  height: 30px;
+  border-radius: 6px;
+  border: 1px solid rgb(166, 166, 204);
+  margin-top: 10px;
+}
+
+.submit-btn{
+  background-color: black;
+  color: white;
+  width: 272px;
+  padding: 7px;
+  border-radius: 8px;
+  overflow:hidden;
+  border: 1px solid rgb(166, 166, 204);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.left-form{
+  background-color: rgb(244, 239, 250);
+  border: 1px solid rgb(166, 166, 204);
+  border-radius:10px;
+  margin-top: 30px;  
+}
+
+.expense-header{
+  margin-left: 12px;
+  max-height: 0px;
+}
+
+.p-tag{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.p-holder{
+  display: flex;
+  max-width: 400px;
+  max-height: 0px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight:520;
+}
