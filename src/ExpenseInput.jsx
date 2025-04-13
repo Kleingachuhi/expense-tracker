@@ -15,7 +15,7 @@ function Inputform({onAddExpense}){
             expense: title,
             description: description,
             category: category,
-            amount: `Ksh ${parseFloat(amount).toLocaleString()            }`,
+            amount: `Ksh ${parseFloat(amount).toLocaleString()}`  ,    
             date: date,
           };
       
