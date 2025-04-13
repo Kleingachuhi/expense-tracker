@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import App from "./App";
 import TableInput from "./TableInput";
-function Inputform({expenses, setExpenses}){
+function Inputform({onAddExpense}){
     const [title, setTitle] = useState('');
     const [description, setDescription] = useState('');
     const [category, setCategory] = useState('');
@@ -11,41 +11,72 @@ function Inputform({expenses, setExpenses}){
     function handleClickSubmit(event){
         event.preventDefault()
 
-        const newExpense = {
+        const formData = {
             expense: title,
             description: description,
             category: category,
-            amount: amount,
-            date: date
+            amount: `Ksh ${parseFloat(amount).toLocaleString()            }`,
+            date: date,
           };
+      
+          onAddExpense(formData);
 
-          setExpenses((prevExpenses) => [...prevExpenses, newExpense]);
 
         setTitle('');
         setDescription('');
-        setCategory('');
+        setCategory('');           
+
         setAmount('');
         setDate('');
     }
 
+    function handleExpenseName(event){
+        setTitle(event.target.value)
+        console.log(title);
+    }
+
+    function handleDescription(event){
+        setDescription(event.target.value)
+        console.log(description);
+
+    }
+
+    function handleCategory(event){
+        setCategory(event.target.value)
+        console.log(category);
+
+    }
+
+    function handleAmount(event){
+        setAmount(event.target.value)
+    console.log(amount);    
+    }
+
+    function handleDate(event){
+        setDate(event.target.value)
+    console.log(date);    
+
+    }
+
     return(
     <>
+         <form onSubmit={handleClickSubmit} className="details-input">
          <input type="text"
           placeholder='Enter expense name'
           className='expense-input' 
          value={title}
-         onChange={(event)=> setTitle(event.target.value)}        />
+         onChange={handleExpenseName}     />
          <input type="text" 
          placeholder='Enter description here' 
          className='description-input'
          value={description}
-         onChange={(event) =>setDescription(event.target.value)}
+         onChange={handleDescription}
          />
          <input type="text"
           placeholder='Enter category'
            className='category-input'
            value={category}
-           onChange={(event)=> setCategory(event.target.value)}
+           onChange={handleCategory}
            />
         <input type="number"
         min="1000"
@@ -54,17 +85,18 @@ function Inputform({expenses, setExpenses}){
          placeholder='Enter amount' 
          className='amount-input'
          value={amount}
-         onChange={(event) => setAmount(event.target.value)}
+         onChange={handleAmount}
          />
         <input type="date"
          className='date-input'
          value={date}
-         onChange={(event) => setDate(event.target.value)}
+         onChange={handleDate}
          />
         <button className='submit-btn' 
-         onClick={handleClickSubmit}>
+         type="submit">
     Submit
         </button> 
+            </form>
     </>
     );
 }
