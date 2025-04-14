@@ -112,6 +112,11 @@ background-color: rgb(255, 255, 255);
   margin-bottom: 10px;
 }
 
+button:hover{
+  color: aqua;
+  background-color: rgb(31, 2, 58);
+}
+
 .left-form{
   background-color: rgb(244, 239, 250);
   border: 1px solid rgb(166, 166, 204);
