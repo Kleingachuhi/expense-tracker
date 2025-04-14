@@ -61,22 +61,26 @@ function Inputform({onAddExpense}){
     return(
     <>
          <form onSubmit={handleClickSubmit} className="details-input">
-         <input type="text"
+      <input type="text"
           placeholder='Enter expense name'
           className='expense-input' 
          value={title}
-         onChange={handleExpenseName}     />
+         onChange={handleExpenseName}  
+         required
+         />
          <input type="text" 
          placeholder='Enter description here' 
          className='description-input'
          value={description}
          onChange={handleDescription}
+         required
          />
          <input type="text"
           placeholder='Enter category'
            className='category-input'
            value={category}
            onChange={handleCategory}
+           required
            />
         <input type="number"
         min="1000"
@@ -86,11 +90,13 @@ function Inputform({onAddExpense}){
          className='amount-input'
          value={amount}
          onChange={handleAmount}
+         required
          />
         <input type="date"
          className='date-input'
          value={date}
          onChange={handleDate}
+         required
          />
         <button className='submit-btn' 
          type="submit">
