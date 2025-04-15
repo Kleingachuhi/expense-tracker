@@ -1,12 +1,66 @@
-# React + Vite
+Expense Tracker
+A modern, responsive web application designed to help users manage their personal finances by tracking daily income and expenses. Whether you're budgeting for the month or analyzing spending habits, this tool offers a clean and intuitive interface to stay on top of your financial goals.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Live Demo
+👉 https://expense-tracker-kohl-ten.vercel.app/
 
-Currently, two official plugins are available:
+📖 Description
+This Expense Tracker is a simple yet powerful tool built with React and TypeScript. It allows users to log transactions, categorize them as income or expenses, and get real-time updates on their overall financial balance. With a clean UI powered by Tailwind CSS and the performance boost of Vite, it ensures a smooth and responsive user experience across devices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Key highlights:
 
-## Expanding the ESLint configuration
+User-friendly interface for quick data entry
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Real-time calculation of income, expenses, and total balance
+
+Visual differentiation between income and expenses
+
+Fully responsive layout for desktop and mobile users
+
+🛠️ Technologies Used
+React
+
+TypeScript
+
+Tailwind CSS
+
+Vite
+
+Vercel (for deployment)
+
+📸 Features
+Add and manage expenses and income
+
+View detailed transaction history
+
+Automatic balance calculation
+
+Responsive and user-friendly design
+
+⚙️ Getting Started
+1. Clone the Repository
+bash
+Copy
+Edit
+git clone https://github.com/your-username/expense-tracker.git
+cd expense-tracker
+2. Install Dependencies
+bash
+Copy
+Edit
+npm install
+3. Run the Development Server
+bash
+Copy
+Edit
+npm run dev
+Visit http://localhost:3000 to view the app locally.
+
+📦 Deployment
+This project is deployed using Vercel, a platform optimized for frontend frameworks and static sites.
+
+The current deployment is available at:
+👉 https://expense-tracker-kohl-ten.vercel.app/
+
+📄 License
+This project is licensed under the MIT License.
