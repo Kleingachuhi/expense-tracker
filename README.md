@@ -20,9 +20,9 @@ Fully responsive layout for desktop and mobile users
 🛠️ Technologies Used
 React
 
-TypeScript
+JavaScript
 
-Tailwind CSS
+ CSS
 
 Vite
 
