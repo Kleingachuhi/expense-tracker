@@ -1,11 +1,12 @@
 Expense Tracker
 A modern, responsive web application designed to help users manage their personal finances by tracking daily income and expenses. Whether you're budgeting for the month or analyzing spending habits, this tool offers a clean and intuitive interface to stay on top of your financial goals.
 
+📖 Description
+This Expense Tracker is a simple yet powerful tool built with React. It allows users to categorize expenses. 
+
 🚀 Live Demo
 👉 https://expense-tracker-kohl-ten.vercel.app/
 
-📖 Description
-This Expense Tracker is a simple yet powerful tool built with React and TypeScript. It allows users to log transactions, categorize them as income or expenses, and get real-time updates on their overall financial balance. With a clean UI powered by Tailwind CSS and the performance boost of Vite, it ensures a smooth and responsive user experience across devices.
 
 Key highlights:
 
